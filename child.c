@@ -11,7 +11,7 @@ void main()
     if(pid==0) 
     { 
         sleep(2);
-        printf("Child 1 is terminated\n");
+        printf("Child 1 is terminated \n");
     } 
   
     else if (pid>0)
